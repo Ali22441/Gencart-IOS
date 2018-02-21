@@ -1,0 +1,6 @@
+framework module Pods_GenKartTests {
+  umbrella header "Pods-GenKartTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

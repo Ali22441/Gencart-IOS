@@ -312,26 +312,26 @@ class HomeViewController: UIViewController {
         
     }
     
-    
-    @IBAction func didTapButton2(_ sender: AnyObject) {
-        PopupController
-            .create(self)
-            .customize(
-                [
-                    .animation(.slideUp),
-                    .scrollable(false),
-                    .backgroundStyle(.blackFilter(alpha: 0.7))
-                ]
-            )
-            .didShowHandler { popup in
-                print("showed popup!")
-            }
-            .didCloseHandler { _ in
-                print("closed popup!")
-            }
-            .show(DemoPopupViewController2.instance())
-    }
-    
+//    
+//    @IBAction func didTapButton2(_ sender: AnyObject) {
+//        PopupController
+//            .create(self)
+//            .customize(
+//                [
+//                    .animation(.slideUp),
+//                    .scrollable(false),
+//                    .backgroundStyle(.blackFilter(alpha: 0.7))
+//                ]
+//            )
+//            .didShowHandler { popup in
+//                print("showed popup!")
+//            }
+//            .didCloseHandler { _ in
+//                print("closed popup!")
+//            }
+//            .show(DemoPopupViewController2.instance())
+//    }
+//    
   
     
 }

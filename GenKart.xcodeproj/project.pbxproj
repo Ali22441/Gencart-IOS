@@ -14,6 +14,8 @@
 		8816F849202EFDBA00BE1159 /* EditProfileNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8816F848202EFDBA00BE1159 /* EditProfileNC.swift */; };
 		8816F84D202F02EF00BE1159 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8816F84C202F02EF00BE1159 /* EditProfileVC.swift */; };
 		881E548C203157C70002F4B7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881E548B203157C70002F4B7 /* MapViewController.swift */; };
+		882D0FB9203EED8D007E0E31 /* StoreCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D0FB8203EED8D007E0E31 /* StoreCell2.swift */; };
+		882D0FBB203EEFEB007E0E31 /* StoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D0FBA203EEFEB007E0E31 /* StoreController.swift */; };
 		8836EB2620354901000A0FA7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8836EB2520354901000A0FA7 /* ChatViewController.swift */; };
 		8836EB29203552CB000A0FA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8836EB28203552CB000A0FA7 /* GoogleService-Info.plist */; };
 		8836EB2B20355353000A0FA7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8836EB2A20355353000A0FA7 /* Constants.swift */; };
@@ -72,6 +74,8 @@
 		8816F848202EFDBA00BE1159 /* EditProfileNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileNC.swift; sourceTree = "<group>"; };
 		8816F84C202F02EF00BE1159 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
 		881E548B203157C70002F4B7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		882D0FB8203EED8D007E0E31 /* StoreCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCell2.swift; sourceTree = "<group>"; };
+		882D0FBA203EEFEB007E0E31 /* StoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreController.swift; sourceTree = "<group>"; };
 		8836EB2520354901000A0FA7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		8836EB2720354B9E000A0FA7 /* GenKart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GenKart-Bridging-Header.h"; sourceTree = "<group>"; };
 		8836EB28203552CB000A0FA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -212,6 +216,8 @@
 				8836EB2C20356B9A000A0FA7 /* CategoriesViewController.swift */,
 				88F94C0F2037FDA300F7A65D /* ItemsCollectionCell.swift */,
 				88F94C142038486100F7A65D /* ItemDetailViewController.swift */,
+				882D0FB8203EED8D007E0E31 /* StoreCell2.swift */,
+				882D0FBA203EEFEB007E0E31 /* StoreController.swift */,
 			);
 			path = Homescreen;
 			sourceTree = "<group>";
@@ -697,11 +703,13 @@
 				8838D102203441ED00DBABA0 /* TrolleyController.swift in Sources */,
 				8816F84D202F02EF00BE1159 /* EditProfileVC.swift in Sources */,
 				8836EB2B20355353000A0FA7 /* Constants.swift in Sources */,
+				882D0FBB203EEFEB007E0E31 /* StoreController.swift in Sources */,
 				8836EB2D20356B9A000A0FA7 /* CategoriesViewController.swift in Sources */,
 				88F94C1A203859F900F7A65D /* CartCell.swift in Sources */,
 				8838D0FA2032F9FE00DBABA0 /* cardView.swift in Sources */,
 				88F94C102037FDA300F7A65D /* ItemsCollectionCell.swift in Sources */,
 				8816F846202ECE7F00BE1159 /* ProfileViewController.swift in Sources */,
+				882D0FB9203EED8D007E0E31 /* StoreCell2.swift in Sources */,
 				8838D0F82032C57100DBABA0 /* StoreDetailController.swift in Sources */,
 				88C721FC202C56C900E957E7 /* AppDelegate.swift in Sources */,
 				8838D1082034517E00DBABA0 /* PopupController.swift in Sources */,

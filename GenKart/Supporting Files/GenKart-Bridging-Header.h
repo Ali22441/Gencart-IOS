@@ -9,5 +9,6 @@
 #ifndef GenKart_Bridging_Header_h
 #define GenKart_Bridging_Header_h
 #import <JSQMessagesViewController/JSQMessages.h>
+#import "SWRevealViewController.h"
 
 #endif /* GenKart_Bridging_Header_h */

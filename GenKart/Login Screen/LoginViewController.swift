@@ -99,7 +99,7 @@ class LoginViewController: UITableViewController {
         
         let request = NSMutableURLRequest(url: NSURL(string: "http://webmarke8.com/gincart/api/login"
             )! as URL)
-        request.httpMethod = "POST"
+        request.httpMethod = "GET"
         let postString = "email=\(NameField.text!)&password=\(PasswordField.text!)"
         request.httpBody = postString.data(using: String.Encoding.utf8)
         

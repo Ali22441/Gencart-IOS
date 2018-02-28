@@ -10,9 +10,12 @@ import UIKit
 
 class CartViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
+    @IBOutlet var Tv: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let nib = UINib(nibName: "CartSectionCell", bundle: nil)
+        Tv.register(nib, forHeaderFooterViewReuseIdentifier: "CartSectionCell")
         // Do any additional setup after loading the view.
     }
 
@@ -22,14 +25,49 @@ class CartViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     }
     
 
+    func numberOfSections(in tableView: UITableView) -> Int {
+        
+        return 5
+        
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
     
     
+
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+
+        // Here, we use NSFetchedResultsController
+        // And we simply use the section name as title
+       // let currSection = fetchedResultsController.sections?[section]
+       // let title = currSection!.name
+
+        
+        let cell = tableView.dequeueReusableHeaderFooterView(withIdentifier: "CartSectionCell") as! CartSectionCell
+        
+        
+        // Dequeue with the reuse identifier
+       // let cell = tableView.dequeueReusableHeaderFooterView(withIdentifier: "CartSectionCell") as! CartSectionCell
+      //  let header = cell as! CartSectionCell
+      //  header.titleLabel.text = title
+
+        return cell
+
+    }
     
-   
+//    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+//        return 61
+//
+//    }
+    
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 61
+    }
+    
+//
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
